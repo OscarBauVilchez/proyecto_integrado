@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "ca3cd533-dcfc-4ae8-ad88-6875ee9606b6",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "3e3992c3-db2b-4a85-b983-60fc2c9c424b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "shoot",
+                    "type": "Button",
+                    "id": "8cfdc856-9673-438e-b7a1-a5c6bb12382a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c848e00a-89e3-4b87-8ee0-8656f54044ed",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2aacc444-ecc4-4dd4-bbf4-f5d58c1ba464",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
