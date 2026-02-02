@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jetpackForce = 2.0f;
     private Rigidbody2D playerRb;
-    private float horizontalInput;
+    public Vector2 direccion = Vector2.right;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,11 +17,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Jump();
+        Movement();
     }
     void Movement() 
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        playerRb.linearVelocity =new Vector2(horizontalInput*speed,playerRb.linearVelocity.y);
+        playerRb.linearVelocity = new Vector2(speed, playerRb.linearVelocity.y);
     }
     void Jump()
     {

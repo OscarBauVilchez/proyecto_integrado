@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -7568683868271594259}
   - component: {fileID: 4091863849987136440}
   - component: {fileID: 7580276721824809322}
-  - component: {fileID: 2219426424582585779}
   m_Layer: 0
   m_Name: Test Player
   m_TagString: Player
@@ -195,17 +194,3 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &2219426424582585779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4011584967647066000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec325784db64b384e9c1e4c837d3bbb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 0
-  jetpackForce: 2
