@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - CamConfiner
+  - Proyectile
   layers:
   - Default
   - TransparentFX

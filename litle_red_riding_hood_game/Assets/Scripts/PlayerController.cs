@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float jetpackForce = 2.0f;
     private Rigidbody2D playerRb;
     public Vector2 direccion = Vector2.right;
+    public GameObject projectilePrefab;
+    public Transform firePoint;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,6 +20,10 @@ public class PlayerController : MonoBehaviour
     {
         Jump();
         Movement();
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Shoot();
+        }
     }
     void Movement() 
     {
@@ -29,6 +35,10 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * jetpackForce, ForceMode2D.Impulse);
         }
+    }
+    void Shoot()
+    {
+        Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
     }
     #region Input methods
     public void OnJump(InputAction.CallbackContext context)
