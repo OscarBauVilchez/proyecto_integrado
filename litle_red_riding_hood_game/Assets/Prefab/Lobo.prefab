@@ -404,10 +404,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lobo
       objectReference: {fileID: 0}
-    - target: {fileID: -8653719598885068355, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: -8056938703400338735, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.226724
