@@ -505,18 +505,18 @@ ScriptedImporter:
     spriteBone:
     - name: Hair 4
       guid: 9a937ce177ffb7e4c8da569cfd625728
-      position: {x: 31.157032, y: 53.541176, z: 0}
+      position: {x: 31.157032, y: 53.54118, z: 0}
       rotation: {x: 0, y: 0, z: 0.9376055, w: 0.3477009}
-      length: 68.313286
+      length: 68.31328
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Hair 3
       guid: 3c6a2957761c7f240a41b583f7d73e5f
-      position: {x: 27.654888, y: 6.686992, z: 0}
+      position: {x: 27.654886, y: 6.687, z: 0}
       rotation: {x: 0, y: 0, z: 0.92336595, w: 0.38392097}
-      length: 60.55454
+      length: 60.55455
       parentId: 2
       color:
         serializedVersion: 2
@@ -5169,9 +5169,9 @@ ScriptedImporter:
         rgba: 4294901888
     - name: Tail 2
       guid: c70492215c49a0047956cd55c937dc14
-      position: {x: 130.06458, y: -0.000034063993, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3436455, w: 0.93909943}
-      length: 96.09273
+      position: {x: 130.0647, y: -0.000007993, z: 0}
+      rotation: {x: 0, y: 0, z: 0.34364557, w: 0.93909943}
+      length: 96.092766
       parentId: 2
       color:
         serializedVersion: 2
@@ -5180,15 +5180,15 @@ ScriptedImporter:
       guid: 68464cabc553ed544a2a25fc2da56af5
       position: {x: 5.363037, y: 23.92514, z: 0}
       rotation: {x: 0, y: 0, z: 0.13530387, w: 0.9908042}
-      length: 130.06473
+      length: 130.06485
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Tail Hair 2
       guid: c5f7486f6144f104ba91f523b74f4ae1
-      position: {x: 50.211678, y: -30.642391, z: 0}
-      rotation: {x: 0, y: 0, z: -0.13091795, w: 0.9913932}
+      position: {x: 50.211617, y: -30.64242, z: 0}
+      rotation: {x: 0, y: 0, z: -0.1309179, w: 0.99139327}
       length: 88.37255
       parentId: 1
       color:
@@ -5196,8 +5196,8 @@ ScriptedImporter:
         rgba: 4278223103
     - name: Tail 3
       guid: 10eb4c9f713365d47bea4de744e637d8
-      position: {x: 96.0928, y: 0.000008826217, z: 0}
-      rotation: {x: 0, y: 0, z: 0.078665815, w: 0.9969011}
+      position: {x: 96.092766, y: -0.000008028088, z: 0}
+      rotation: {x: 0, y: 0, z: 0.07866575, w: 0.99690104}
       length: 122.51748
       parentId: 1
       color:
@@ -8242,7 +8242,7 @@ ScriptedImporter:
       guid: 68464cabc553ed544a2a25fc2da56af5
       position: {x: -690.8654, y: 587.42676, z: 0}
       rotation: {x: 0, y: -0, z: -0.96898574, w: 0.24711676}
-      length: 130.06473
+      length: 130.06485
       parentId: 0
       color:
         serializedVersion: 2
@@ -8258,17 +8258,17 @@ ScriptedImporter:
         rgba: 4294901888
     - name: Tail 2
       guid: c70492215c49a0047956cd55c937dc14
-      position: {x: 130.0646, y: 0.00004525011, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3436455, w: 0.93909943}
-      length: 96.09273
+      position: {x: 130.06473, y: 0.00004927097, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3436456, w: 0.93909943}
+      length: 96.09276
       parentId: 27
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: Tail 3
       guid: 10eb4c9f713365d47bea4de744e637d8
-      position: {x: 96.09268, y: -0.000008650136, z: 0}
-      rotation: {x: 0, y: 0, z: 0.07866584, w: 0.9969011}
+      position: {x: 96.092735, y: -0.00005790971, z: 0}
+      rotation: {x: 0, y: 0, z: 0.07866578, w: 0.9969011}
       length: 122.51746
       parentId: 29
       color:
@@ -8459,83 +8459,11 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0.5, y: 0}
     boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: iPhone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Windows Store Apps
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   mosaicLayers: 1
   characterMode: 1
-  documentPivot: {x: 0.5, y: 1}
-  documentAlignment: 9
+  documentPivot: {x: 0.5, y: 0}
+  documentAlignment: 7
   importHiddenLayers: 0
   layerMappingOption: 2
   generatePhysicsShape: 0
