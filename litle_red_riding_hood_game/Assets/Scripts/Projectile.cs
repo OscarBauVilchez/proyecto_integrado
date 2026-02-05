@@ -18,12 +18,13 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject, lifeTime);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other )
     {
         // Ignore self or player if needed
-        if (collision.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+            GameManager.Instance.PointsUp(1);
         }
         return;
 
