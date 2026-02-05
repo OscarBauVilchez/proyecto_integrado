@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
-    public float jetpackForce = 2.0f;
+    public float jetpackForce = 6.0f;
     private Rigidbody2D playerRb;
     public Vector2 direccion = Vector2.right;
     public GameObject projectilePrefab;
@@ -31,9 +31,12 @@ public class PlayerController : MonoBehaviour
     }
     void Jump()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
-            playerRb.AddForce(Vector3.up * jetpackForce, ForceMode2D.Impulse);
+            playerRb.linearVelocity = new Vector2(
+                playerRb.linearVelocity.x,
+                Mathf.Lerp(playerRb.linearVelocity.y, 5f, 0.2f)
+            );
         }
     }
     void Shoot()
