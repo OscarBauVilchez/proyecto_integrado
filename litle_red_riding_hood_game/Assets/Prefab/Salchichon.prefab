@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salchichon
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 60d3d4553b3377b45906d1a5649f32db, type: 3}
+      propertyPath: m_TagString
+      value: Proyectile
+      objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 60d3d4553b3377b45906d1a5649f32db, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10197
@@ -112,7 +116,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

@@ -48,6 +48,8 @@ public class Enemy : MonoBehaviour
     void MoveLeft()
     {
         enemyRb.linearVelocity = new Vector2(-speed, enemyRb.linearVelocity.y);
+        enemyAnim.SetTrigger("Running");
+
     }
     void DetectObstacle()
     {
@@ -65,8 +67,18 @@ public class Enemy : MonoBehaviour
 
         
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Proyectile"))
+        {
+            enemyAnim.SetTrigger("Eating");
+
+        }
+
+    }
     void Jump()
     {
         enemyRb.linearVelocity = new Vector2(enemyRb.linearVelocity.x, jumpForce);
+        enemyAnim.SetTrigger("Jumping");
     }
 }

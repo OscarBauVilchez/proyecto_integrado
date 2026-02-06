@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lobo
       objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: -8056938703400338735, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.226724
@@ -462,15 +466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.87626
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.87626
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.87626
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalPosition.x
@@ -511,6 +515,10 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7083481790098622581, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       propertyPath: m_Name
@@ -850,6 +858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6955534209187588717}
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1473496475873781722}
     - targetCorrespondingSourceObject: {fileID: 6768415195964547196, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1989272970887442767}
@@ -933,6 +944,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1473496475873781722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565128833133034804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e962408c29485ca4398478f72901c44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  player: {fileID: 0}
+  detectionDistance: 5
+  speed: 3
+  jumpForce: 7
+  groundCheck: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleCheck: {fileID: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &1153047527321167448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8056938703400338735, guid: 2a39061ec2dc7054385a134b56bc7393, type: 3}
